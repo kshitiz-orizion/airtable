@@ -1,0 +1,151 @@
+@import url(https://db.onlinewebfonts.com/c/040a78b437acd0433612f92e61d04a1b?family=Gilroy-Medium);
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.rightContent {
+  height: 100vh;
+  width: 80%;
+  padding: 50px;
+}
+
+.leftContent {
+  height: 100vh;
+  width: 20%;
+  border-right: 1px solid #e1e1e1;
+}
+
+.premiumSection {
+  background-color: #008b5d;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.personalInfo {
+  margin-top: 20px;
+  width:100%;
+}
+.profilePic{
+  width:30%;
+  justify-content: center;
+  display: flex;
+  height: 150px;
+}
+
+.formConatiner{
+  display: flex;
+  flex-direction: row;
+}
+.formConatiner form{
+  width:110%;
+}
+.deleteProfile {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #a1a1a1;
+  border-radius: 20px;
+}
+.footerSection {
+  border-top: 1px solid #a1a1a1;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.formSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 10px;
+}
+.address {
+  width: 49%;
+  border: 1px solid #a1a1a1;
+  padding: 10px;
+  margin-right: 10px;
+  height: 25px;
+  border-radius: 5px;
+}
+.password {
+  width: 49%;
+  border: 1px solid #a1a1a1;
+  padding: 10px;
+  margin-right: 10px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.formSection input {
+  border: 1px solid #a1a1a1;
+  width: 100%;
+  padding: 10px;
+  margin-right: 10px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+input[type="submit"]{
+  background-color: #1688FE;
+  width:100px;
+  border-radius: 10px;
+  border:none;
+  color:white;
+  height: 30px;
+}
+
+.deleteConfirm{
+  color:#F25773
+}
+
+.personalContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.sideHeading{
+  border-bottom:1px solid #e1e1e1;
+  padding-bottom: 10px;
+}
+
+.boldWeight{
+  font-weight: 800;
+}
+
+.sidebarElement{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap:10px;
+  height: 20px;
+}
+
+.sidebarElement p {
+  font-size: 15px;
+  font-family: "Gilroy-Medium";
+}
+
+.boardBorder{
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 20px;
+  margin-top: 5px;
+  margin-right:10px;
+}
+
+.iconBoard{
+  margin-right: 10px;
+}
+
+.flotright{
+  float: right;
+}
